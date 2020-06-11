@@ -39,8 +39,12 @@ div #viewport{
     width:100%;
 }
 
+form{
+    margin: 0 auto;
+}
 #google-img{
     width: 50%;
+    margin: auto;
 }
 
 body{
@@ -89,6 +93,32 @@ body{
     margin: auto;
 }
 
+input{
+    width: 450px;
+    margin: -20px 4px;
+    border-color: gray;
+    height: 38px;
+    text-align: start;
+    font-size: 14px;
+}
+
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #5f6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 20px 4px;
+    height: 36px;
+    min-width: 54px;
+    background-image: -webkit-linear-gradient(top,#ffffff,#dddddd);
+    cursor: pointer;
+}
+
+button:hover{
+    border: black solid;
+}
 
 
 
